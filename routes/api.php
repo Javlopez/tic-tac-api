@@ -15,3 +15,4 @@ use Illuminate\Http\Request;
 
 
 Route::get('/movements', 'MovementsController@index');
+Route::post('/movements', 'MovementsController@create');
