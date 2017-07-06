@@ -1,4 +1,5 @@
 FROM nginx
+MAINTAINER Javier Lopez Lopez <sjavierlopez@gmail.com>
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
